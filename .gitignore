@@ -3,3 +3,7 @@ bin/
 .settings/
 .project
 .classpath
+lib/
+*.jar
+ojdbc*.jar
+config.properties
