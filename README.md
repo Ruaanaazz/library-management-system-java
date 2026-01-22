@@ -1,4 +1,4 @@
-------Library Management System (Core Java + Oracle DB)------
+##------Library Management System (Core Java + Oracle DB)------
 
 A Core Java based Library Management System designed using layered architecture, Swing UI, and Oracle Database, implementing secure authentication and complete CRUD operations for real-world academic library workflows.
 This project demonstrates **strong fundamentals of Java, JDBC, SQL, and desktop application design**, making it suitable for enterprise-level evaluation.
