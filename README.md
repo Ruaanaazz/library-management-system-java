@@ -86,12 +86,19 @@ The project follows a clean layered architecture separating UI, business logic, 
 - Parameterized queries using `PreparedStatement`
 - Connection handled via reusable DB utility class
 
-⚠️ **Security Note**
+## 🔐 Security Note
 
-Database credentials are externalized using a `config.properties` file
-and are intentionally excluded from version control for security reasons.
+For simplicity and local development purposes, database credentials are currently configured directly inside the `DBConnection.java` file.
 
-Please create your own `config.properties` file locally before running the project.
+> ⚠️ **Important:**  
+> In a production-grade application, database credentials should never be hardcoded.
+
+### Planned Improvement
+- Move database credentials to an external configuration file (`config.properties`)
+- Load credentials securely using environment-based configuration
+- Exclude sensitive files using `.gitignore`
+
+This enhancement is intentionally listed as a future improvement to demonstrate awareness of industry-standard security practices.
 
 
 
