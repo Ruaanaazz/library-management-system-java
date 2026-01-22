@@ -84,9 +84,11 @@ src/
 > Update them according to your local Oracle setup before running the project.
 
 ```java```
-String url = "jdbc:oracle:thin:@localhost:1521:XE";
-String user = "<your-username>";
-String pass = "<your-password>";
+``` String url = "jdbc:oracle:thin:@localhost:1521:XE"; ```
+
+``` String user = "<your-username>"; ```
+
+``` String pass = "<your-password>";  ```
 
 
 ##  How to Run the Project
@@ -116,6 +118,22 @@ String pass = "<your-password>";
   
   -Production-style CRUD workflows
 
+## 📸 Application Screenshots
+
+###  Admin Login
+![Admin Login](./screenshots/logindashboard.png)
+
+###  Admin Login (Validation)
+![Admin Login Validation](./screenshots/logindashboard2.png)
+
+###  Main Dashboard
+![Main Menu](./screenshots/mainmenu.png)
+
+###  Student Management
+![Add Student](./screenshots/addstudents.png)
+
+### 📚Book Management
+![Add Book](./screenshots/addbooks.png)
 
 # Future Enhancements
   -Role-based access (Admin / Librarian)
