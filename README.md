@@ -86,16 +86,13 @@ The project follows a clean layered architecture separating UI, business logic, 
 - Parameterized queries using `PreparedStatement`
 - Connection handled via reusable DB utility class
 
-> ⚠️ **Note:** Database credentials are configurable locally and not committed for security reasons.
-> Database credentials are configured locally in `DBConnection.java`.  
-> Update them according to your local Oracle setup before running the project.
+⚠️ **Security Note**
 
-```java```
-``` String url = "jdbc:oracle:thin:@localhost:1521:XE"; ```
+Database credentials are externalized using a `config.properties` file
+and are intentionally excluded from version control for security reasons.
 
-``` String user = "<your-username>"; ```
+Please create your own `config.properties` file locally before running the project.
 
-``` String pass = "<your-password>";  ```
 
 
 ##  How to Run the Project
