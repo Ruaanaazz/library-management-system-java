@@ -1,7 +1,10 @@
 ## -------Library Management System (Core Java + Oracle DB)-------
 
-A Core Java based Library Management System designed using layered architecture, Swing UI, and Oracle Database, implementing secure authentication and complete CRUD operations for real-world academic library workflows.
-This project demonstrates **strong fundamentals of Java, JDBC, SQL, and desktop application design**, making it suitable for enterprise-level evaluation.
+A desktop-based **Library Management System** developed using **Core Java (Swing)** and **Oracle Database**, implementing complete **CRUD operations**, **role-based admin access**, and a **clean layered architecture**.
+
+This project demonstrates strong fundamentals in **Java OOP**, **JDBC**, **SQL**, and **real-world application design**.
+
+---
 
 Key Features:
 ###  Admin Authentication: 
@@ -21,8 +24,12 @@ Key Features:
 - View all students list
 ###  Desktop GUI:
 - Built using **Java Swing**
-- Interactive forms for Admin, Books, and Students
-- Clean separation between UI and business logic
+-Separate screens for:
+  - Admin Login
+  - Admin Dashboard
+  - Book Management
+  - Student Management
+- Real-time table updates after CRUD operations
 
 
 ##  Architecture Overview
@@ -73,6 +80,13 @@ src/
 - Connection handled via reusable DB utility class
 
 > ⚠️ **Note:** Database credentials are configurable locally and not committed for security reasons.
+> Database credentials are configured locally in `DBConnection.java`.  
+> Update them according to your local Oracle setup before running the project.
+
+```java```
+String url = "jdbc:oracle:thin:@localhost:1521:XE";
+String user = "<your-username>";
+String pass = "<your-password>";
 
 
 ##  How to Run the Project
@@ -101,6 +115,7 @@ src/
   -Hands-on experience with desktop applications
   
   -Production-style CRUD workflows
+
 
 # Future Enhancements
   -Role-based access (Admin / Librarian)
