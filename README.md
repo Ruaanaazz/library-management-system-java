@@ -47,6 +47,13 @@ src/
 
 ├── uidesign → Swing-based UI components
 
+##  Architecture Diagram
+
+The project follows a clean layered architecture separating UI, business logic, and database access.
+
+![Architecture Diagram](./screenshots/image.png)
+
+
 
 ### Design Principles Used
 - Separation of concerns
