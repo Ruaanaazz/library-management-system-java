@@ -1,4 +1,4 @@
-##------Library Management System (Core Java + Oracle DB)------
+## -------Library Management System (Core Java + Oracle DB)-------
 
 A Core Java based Library Management System designed using layered architecture, Swing UI, and Oracle Database, implementing secure authentication and complete CRUD operations for real-world academic library workflows.
 This project demonstrates **strong fundamentals of Java, JDBC, SQL, and desktop application design**, making it suitable for enterprise-level evaluation.
@@ -27,11 +27,17 @@ Key Features:
 
 ##  Architecture Overview
 The project follows a **clean layered structure**:
+
 src/
+
 ├── driver → Application entry point
+
 ├── dbase → Business logic & JDBC operations
+
 ├── dbutils → Database connection handling
+
 ├── entity → POJO / Model classes
+
 ├── uidesign → Swing-based UI components
 
 
@@ -84,23 +90,32 @@ src/
 
 5. Run:
    driver/Mainprg.java
----------------------------------------------
+
 # What This Project Demonstrates
   -Strong understanding of Core Java & OOP
+  
   -Real-world usage of JDBC with Oracle DB
+  
   -Clean modular code structure
+  
   -Hands-on experience with desktop applications
+  
   -Production-style CRUD workflows
 
 # Future Enhancements
   -Role-based access (Admin / Librarian)
+  
   -Book issue & return module
+  
   -Fine calculation system
+  
   -Logging & exception handling improvements
+  
   -Migration to Spring Boot REST backend
+  
 -----------------------------------------------------
 👤 Author
-Ruaa Naaz
+Ruaanaaz
 Aspiring Software Engineer | Java | Databases | Backend Systems
 
 This project is built to demonstrate industry-ready Java fundamentals and enterprise-style coding practices.
